@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shopping_app/items/hoodie.dart';
 // import 'package:flutter/rendering.dart';
 import 'package:shopping_app/widgets/grid_items.dart';
 
@@ -213,9 +214,19 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ],
                       ),
-                      child: Padding(
-                        padding: EdgeInsets.all(6),
-                        child: Image.asset(IconimageList[i]),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Hoodie(),
+                            ),
+                          );
+                        },
+                        child: Padding(
+                          padding: EdgeInsets.all(6),
+                          child: Image.asset(IconimageList[i]),
+                        ),
                       ),
                     ),
                 ],
