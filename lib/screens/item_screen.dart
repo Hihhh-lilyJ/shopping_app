@@ -148,13 +148,9 @@ class ItemScreen extends StatelessWidget {
                   color: Color(0xFFB4C8EA),
                 ),
                 child: Center(
-                  child: Text(
-                    "Add To Cart",
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  child: Icon(
+                    Icons.favorite_outline,
+                    color: Colors.redAccent,
                   ),
                 ),
               ),

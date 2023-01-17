@@ -85,6 +85,12 @@ flutter:
      - assets/images/p4.png
      - assets/logos/facebook-1.png
      - assets/logos/google-1.png
+    #  - assets/images/sneaker2.png
+    #  - assets/images/sneaker3.png
+    #  - assets/images/sneaker4.png
+    #  - assets/images/sneaker5.png
+    #  - assets/images/sneaker6.png
+    
 
   #   - images/a_dot_ham.jpeg
 

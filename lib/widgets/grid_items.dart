@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:shopping_app/items/applewatch.dart';
 import 'package:shopping_app/screens/item_screen.dart';
 
 class GridItems extends StatelessWidget {
@@ -29,7 +30,7 @@ class GridItems extends StatelessWidget {
                 color: Color(0xFF999999),
                 blurRadius: 2,
                 // spreadRadius: 2,
-              )
+              ),
             ],
           ),
           child: Padding(
@@ -69,6 +70,11 @@ class GridItems extends StatelessWidget {
                       height: 100,
                       width: 100,
                     ),
+                    // child: Image(
+                    //   image: AssetImage('assets/images/Apple Watch.png'),
+                    //   height: 100,
+                    //   width: 100,
+                    // ),
                   ),
                 ),
                 SizedBox(height: 15),
@@ -79,6 +85,7 @@ class GridItems extends StatelessWidget {
                     children: [
                       Text(
                         pNames[index],
+                        // "Apple Watch",
                         style: TextStyle(
                           fontSize: 17,
                           color: Colors.black.withOpacity(0.8),
@@ -106,7 +113,7 @@ class GridItems extends StatelessWidget {
                             ),
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),

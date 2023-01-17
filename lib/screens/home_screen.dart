@@ -1,8 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shopping_app/items/accessory.dart';
+import 'package:shopping_app/items/applewatch.dart';
+import 'package:shopping_app/items/headphone.dart';
 import 'package:shopping_app/items/hoodie.dart';
-// import 'package:flutter/rendering.dart';
+import 'package:shopping_app/items/perfume.dart';
+import 'package:shopping_app/items/phone.dart';
+import 'package:shopping_app/items/sneaker.dart';
 import 'package:shopping_app/widgets/grid_items.dart';
+// import 'package:flutter/rendering.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -198,37 +204,238 @@ class HomeScreen extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  for (var i = 0; i < 7; i++)
-                    Container(
-                      height: 50,
-                      width: 50,
-                      margin: EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: Color(0xFFB4C8EA),
-                        borderRadius: BorderRadius.circular(10),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Color(0xFF999999),
-                            blurRadius: 2,
-                            // spreadRadius: 2,
+                  // for (var i = 0; i < 7; i++)
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Hoodie(),
                           ),
-                        ],
-                      ),
-                      child: InkWell(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Hoodie(),
-                            ),
-                          );
-                        },
-                        child: Padding(
-                          padding: EdgeInsets.all(6),
-                          child: Image.asset(IconimageList[i]),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon1.png'),
                         ),
                       ),
                     ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => AppleWatch(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon2.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Phone(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon3.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Sneaker(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon4.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Accessory(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon5.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HeadPhone(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon6.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFB4C8EA),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF999999),
+                          blurRadius: 2,
+                          // spreadRadius: 2,
+                        ),
+                      ],
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Perfume(),
+                          ),
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(6),
+                        // child: Image.asset(IconimageList[i]),
+                        child: Image(
+                          image: AssetImage('assets/images/icon7.png'),
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
