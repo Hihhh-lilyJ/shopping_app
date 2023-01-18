@@ -41,7 +41,6 @@ class Phone extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Color(0xFFFDFBFB),
     );
   }
 }

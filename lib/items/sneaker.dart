@@ -41,35 +41,6 @@ class Sneaker extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Color(0xFFFDFBFB),
     );
   }
 }
-
-// class Sneaker extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         backgroundColor: Color(0xFFFDFBFB),
-//         elevation: 0,
-//         leading: InkWell(
-//           onTap: () {
-//             Navigator.pop(context);
-//           },
-//           child: Icon(
-//             Icons.arrow_back,
-//             color: Colors.black,
-//           ),
-//         ),
-//         actions: [
-//           Icon(
-//             CupertinoIcons.cart,
-//             color: Colors.black,
-//           ),
-//         ],
-//       ),
-//       backgroundColor: Color(0xFFFDFBFB),
-//     );
-//   }
-// }

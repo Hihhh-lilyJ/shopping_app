@@ -41,7 +41,6 @@ class Hoodie extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Color(0xFFFDFBFB),
     );
   }
 }

@@ -41,7 +41,6 @@ class HeadPhone extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Color(0xFFFDFBFB),
     );
   }
 }
