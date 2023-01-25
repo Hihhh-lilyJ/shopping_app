@@ -21,10 +21,12 @@ class _ScreensState extends State<Screens> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFFDFBFB),
+      // backgroundColor: Color(0xFF282B30),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           color: Color(0xFFFDFBFB),
+          // color: Color(0xFF282B30),
           boxShadow: [
             BoxShadow(
               blurRadius: 20,

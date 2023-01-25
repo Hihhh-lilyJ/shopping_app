@@ -132,9 +132,14 @@ class CartScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Icon(CupertinoIcons.minus),
-                              Text("1"),
+                              Text("01"),
                               Icon(CupertinoIcons.plus),
                             ],
+                            // children: [
+                            //   Icon(CupertinoIcons.minus),
+                            //   Text("01"),
+                            //   Icon(CupertinoIcons.plus),
+                            // ],
                           ),
                         ),
                       ],

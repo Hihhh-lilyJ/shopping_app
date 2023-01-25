@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shopping_app/products_item/sneakers_item.dart';
+import 'package:shopping_app/products_item/sneakers_item_screen.dart';
 
 class Sneaker extends StatelessWidget {
   @override
@@ -15,7 +17,7 @@ class Sneaker extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.only(
               left: 20,
-              top: 20,
+              top: 10,
             ),
             child: Icon(
               Icons.arrow_back,
@@ -27,7 +29,7 @@ class Sneaker extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(
               right: 20,
-              top: 20,
+              top: 10,
             ),
             child: InkWell(
               onTap: () {
@@ -40,6 +42,26 @@ class Sneaker extends StatelessWidget {
             ),
           ),
         ],
+      ),
+      body: Container(
+        color: Color(0xFFFDFBFB),
+        child: Padding(
+          padding: EdgeInsets.symmetric(
+            horizontal: 20,
+          ),
+          child: GridView.builder(
+            itemCount: 6,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              mainAxisSpacing: 20,
+              crossAxisSpacing: 20,
+              childAspectRatio: 0.75,
+            ),
+            itemBuilder: (context, index) => SneakersItem(
+              Sneakersitem: Sneakersitem[index],
+            ),
+          ),
+        ),
       ),
     );
   }

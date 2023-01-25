@@ -85,13 +85,36 @@ flutter:
      - assets/images/p4.png
      - assets/logos/facebook-1.png
      - assets/logos/google-1.png
-    #  - assets/images/sneaker2.png
-    #  - assets/images/sneaker3.png
-    #  - assets/images/sneaker4.png
-    #  - assets/images/sneaker5.png
-    #  - assets/images/sneaker6.png
-    
-
+     - assets/images/sneaker1.png
+     - assets/images/sneaker2.png
+     - assets/images/sneaker3.png
+     - assets/images/sneaker4.png
+     - assets/images/sneaker5.png
+     - assets/images/sneaker6.png
+     - assets/images/perfume1.png
+     - assets/images/perfume2.png
+     - assets/images/perfume3.png
+     - assets/images/perfume4.png
+     - assets/images/perfume5.png
+     - assets/images/perfume6.png
+     - assets/images/Headphone1.png
+     - assets/images/Headphone2.png
+     - assets/images/Headphone3.png
+     - assets/images/Headphone4.png
+     - assets/images/Headphone5.png
+     - assets/images/Headphone6.png
+     - assets/images/Hoodie1.png
+     - assets/images/Hoodie2.png
+     - assets/images/Hoodie3.png
+     - assets/images/Hoodie4.png
+     - assets/images/Hoodie5.png
+     - assets/images/Hoodie6.png
+     - assets/images/Accessory1.png
+     - assets/images/Accessory2.png
+     - assets/images/Accessory3.png
+     - assets/images/Accessory4.png
+     - assets/images/Accessory5.png
+     - assets/images/Accessory6.png         
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

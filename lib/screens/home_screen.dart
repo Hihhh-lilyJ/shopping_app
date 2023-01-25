@@ -51,6 +51,7 @@ class HomeScreen extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: Color(0xFFB4C8EA),
+                    // color: Color(0xFF282B30),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
@@ -69,6 +70,7 @@ class HomeScreen extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: Color(0xFFB4C8EA),
+                    // color: Color(0xFF282B30),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(

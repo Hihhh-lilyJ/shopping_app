@@ -15,7 +15,7 @@ class AppleWatch extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.only(
               left: 20,
-              top: 20,
+              top: 10,
             ),
             child: Icon(
               Icons.arrow_back,
@@ -27,7 +27,7 @@ class AppleWatch extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(
               right: 20,
-              top: 20,
+              top: 10,
             ),
             child: InkWell(
               onTap: () {

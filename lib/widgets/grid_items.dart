@@ -69,11 +69,6 @@ class GridItems extends StatelessWidget {
                       height: 100,
                       width: 100,
                     ),
-                    // child: Image(
-                    //   image: AssetImage('assets/images/Apple Watch.png'),
-                    //   height: 100,
-                    //   width: 100,
-                    // ),
                   ),
                 ),
                 SizedBox(height: 15),
@@ -83,8 +78,7 @@ class GridItems extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        // pNames[index],
-                        "Apple Watch",
+                        pNames[index],
                         style: TextStyle(
                           fontSize: 17,
                           color: Colors.black.withOpacity(0.8),
