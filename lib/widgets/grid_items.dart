@@ -36,22 +36,22 @@ class GridItems extends StatelessWidget {
             padding: EdgeInsets.all(12),
             child: Column(
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "30% off",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 12,
-                      ),
-                    ),
-                    Icon(
-                      Icons.favorite,
-                      color: Colors.redAccent,
-                    ),
-                  ],
-                ),
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //   children: [
+                //     Text(
+                //       "30% off",
+                //       style: TextStyle(
+                //         fontWeight: FontWeight.bold,
+                //         fontSize: 12,
+                //       ),
+                //     ),
+                //     Icon(
+                //       Icons.favorite,
+                //       color: Colors.redAccent,
+                //     ),
+                //   ],
+                // ),
                 SizedBox(height: 10),
                 Padding(
                   padding: EdgeInsets.all(10),

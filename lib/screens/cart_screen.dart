@@ -1,7 +1,26 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class CartScreen extends StatelessWidget {
+class CartScreen extends StatefulWidget {
+  @override
+  State<CartScreen> createState() => _CartScreenState();
+}
+
+class _CartScreenState extends State<CartScreen> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  void _decrementCounter() {
+    setState(() {
+      _counter--;
+    });
+  }
+
   var pNames = [
     "Apple Watch",
     "Headphone",
@@ -131,15 +150,33 @@ class CartScreen extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Icon(CupertinoIcons.minus),
-                              Text("01"),
-                              Icon(CupertinoIcons.plus),
+                              InkWell(
+                                onTap: _decrementCounter,
+                                child: Padding(
+                                  padding: EdgeInsets.only(left: 5),
+                                  child: Icon(
+                                    CupertinoIcons.minus,
+                                    size: 15,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                "$_counter",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              InkWell(
+                                onTap: _incrementCounter,
+                                child: Padding(
+                                  padding: EdgeInsets.only(right: 5),
+                                  child: Icon(
+                                    CupertinoIcons.plus,
+                                    size: 15,
+                                  ),
+                                ),
+                              ),
                             ],
-                            // children: [
-                            //   Icon(CupertinoIcons.minus),
-                            //   Text("01"),
-                            //   Icon(CupertinoIcons.plus),
-                            // ],
                           ),
                         ),
                       ],

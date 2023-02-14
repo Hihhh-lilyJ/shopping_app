@@ -3,6 +3,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:shopping_app/screens/cart_screen.dart';
 import 'package:shopping_app/screens/home_screen.dart';
+import 'package:shopping_app/screens/profile_screen.dart';
 
 class Screens extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class _ScreensState extends State<Screens> {
     HomeScreen(),
     CartScreen(),
     Container(),
-    Container(),
+    ProfileScreen(),
   ];
   @override
   Widget build(BuildContext context) {
